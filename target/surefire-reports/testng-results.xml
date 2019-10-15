@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-15T17:14:25Z" name="Suite" finished-at="2019-10-15T17:14:28Z" duration-ms="3268">
+    <groups>
+    </groups>
+    <test started-at="2019-10-15T17:14:25Z" name="TwitterAPITest" finished-at="2019-10-15T17:14:28Z" duration-ms="3268">
+      <class name="MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet">
+        <test-method is-config="true" signature="getData()[pri:0, instance:MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet@518caac3]" started-at="2019-10-15T17:14:25Z" name="getData" finished-at="2019-10-15T17:14:25Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="getLatestTweet()[pri:0, instance:MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet@518caac3]" started-at="2019-10-15T17:14:25Z" name="getLatestTweet" finished-at="2019-10-15T17:14:28Z" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLatestTweet -->
+        <test-method signature="createTweet()[pri:1, instance:MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet@518caac3]" started-at="2019-10-15T17:14:28Z" name="createTweet" finished-at="2019-10-15T17:14:28Z" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTweet -->
+        <test-method signature="deleteTweet()[pri:2, instance:MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet@518caac3]" started-at="2019-10-15T17:14:28Z" name="deleteTweet" finished-at="2019-10-15T17:14:28Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+      </class> <!-- MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet -->
+    </test> <!-- TwitterAPITest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="TwitterAPITest(failed)" verbose="0">
+    <classes>
+      <class name="MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet">
+        <methods>
+          <include name="deleteTweet"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- MavenTwitterAPI.TwitterOAuthGetPostDeleteTweet -->
+    </classes>
+  </test> <!-- TwitterAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
