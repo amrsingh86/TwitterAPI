@@ -46,7 +46,7 @@ Properties prop = new Properties();
 		String str1 = js.get("text").toString();
 		id = js.get("id_str").toString();
 		log.info("LATEST TWEET: " +str1);
-		log.info("LATEST TWEET ID: " +id);
+		log.info("LATEST TWEET ID: " +id+ "\n");
 		//System.out.println("LATEST TWEET ID: " +id);
 	}
 	
@@ -67,7 +67,7 @@ Properties prop = new Properties();
 		String str2 = js.get("text").toString();
 		String id1 = js.get("id").toString();
 		log.info("AUTOMATED TWEET: " +str2);
-		log.info("AUTOMATED TWEET ID: " +id1);
+		log.info("AUTOMATED TWEET ID: " +id1+ "\n");
 	}
 	
 	//DELETE TWEET
